@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: plum;
+}
+
+.confirm {
+    min-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: palevioletred;
+    box-shadow: 3px 3px 3px violet;
+    border-radius: 5px;
+}
+
+.confirm_container{
+    padding: 10px;
+}
+
+.confirm_container .title{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+.confirm_action{
+    display: flex;
+    column-gap: 10px;
+}
+
+.confirm_action button{
+    width: 100%;
+    cursor: pointer;
+    font-size: 10px;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: azure;
+}
+
+.confirm_action .acc{
+    background-color: green;
+}
+
+.confirm_action .dec{
+    background-color: red;
+}
+
+.picture{
+    display: none;
+}
+
+.picture img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    padding-top: 100px ;
+}
+    
